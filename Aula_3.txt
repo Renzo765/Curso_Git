@@ -1,0 +1,71 @@
+    1  echo "# Curso_Git" >> README.md
+    2  git init
+    3  git add README.md
+    4  git commit -m "first commit"
+    5  git config--global user.mail "ramvmz.vs@gmail.com"
+    6  git config --global user.email "ramvmz.vs@gmail.com"
+    7  git config --global user.name "Renzo Munoz"
+    8  git commit 
+    9  git remote add origin https://github.com/Renzo765/Curso_Git.git
+   10  git remote
+   11  git push origin master
+   12  git log
+   13  ssh-kegen -t rsa 4096 -C 'ramvmz.vs@gmail.com'
+   14  ssh-keygen -t rsa 4096 -C 'ramvmz.vs@gmail.com'
+   15  ssh-keygen -t rsa 4096 -C 'ramvmz.vs@gmail.com'
+   16  ssh-keygen -t rsa 4096 -C'ramvmz.vs@gmail.com'
+   17  clear
+   18  ls
+   19  cd destock
+   20  mkdir turma 18
+   21  ls
+   22  cd turma
+   23  ls
+   24  cd Curso_Git
+   25  cd Curso_Git
+   26  cat versionamento de codigo > teste.txt
+   27  cat versionamento de codigo >> teste.txt
+   28  cat 'Hola' > arquivo.txt
+   29  cd Desktop
+   30  cd escritorio
+   31  mkdir turma 18 turma 19
+   32  touch teste.txt
+   33  ls
+   34  echo 'meu primeiro codigo' > olamundo.txt
+   35  echo '# Renzo' >> olamundo.txt
+   36  echo '06/07/2022 > olamundo.txt
+   37  echo '06/07/2022' > olamundo.txt
+   38  git item
+   39  git init
+   40  clear
+   41  git config --global user.name 'Renzo Muñoz'
+   42  git config --global user.mail 'ramvmz.vs@gmail.com'
+   43  git config user.name
+   44  cd Curso_Git
+   45  git config user.name
+   46  git init
+   47  git status
+   48  echo '#Aprendendo usar o Git'> readme.md
+   49  git status
+   50  git add readme.md
+   51  git status
+   52  git commit -m 'Commit Inical'
+   53  git status
+   54  echo '##Aula 1' >> readme.md
+   55  git status
+   56  echo 'Renzo Muñoz' > participantes.txt
+   57  git status
+   58  git add .
+   59  git status
+   60  git restore --staged participantes.txt
+   61  git status
+   62  git add participantes.txt
+   63  git status
+   64  git restore --staged .
+   65  git status
+   66  git commit -am 'Alteraçao no readme'
+   67  git status
+   68  git add participantes.txt
+   69  git status
+   70  git commit -m 'Adicionad participantes.txt'
+   71  history > Aula_3.txt
